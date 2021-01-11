@@ -84,9 +84,6 @@ jobs:
           CONFIG_TARGET_BOARD="ramips"
           CONFIG_TARGET_SUBTARGET="mt7621"
           CONFIG_TARGET_PROFILE="DEVICE_xiaomi_redmi-router-ac2100"
-          CONFIG_TARGET_ARCH_PACKAGES="mipsel_24kc"
-          CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
-          CONFIG_CPU_TYPE="24kc"
           CONFIG_LINUX_5_4=y
           CONFIG_SHADOW_PASSWORDS=y
           CONFIG_DEFAULT_opkg=y
@@ -122,16 +119,9 @@ jobs:
           CONFIG_PACKAGE_luci-app-wifischedule=y
           CONFIG_PACKAGE_luci-proto-ipv6=y
           CONFIG_PACKAGE_luci-proto-ppp=y
-          CONFIG_PACKAGE_luci-lib-docker=y
           CONFIG_PACKAGE_default-settings=y
-          CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
           CONFIG_PACKAGE_autossh=y
           CONFIG_PACKAGE_openssh-server=y
-          CONFIG_PACKAGE_openssh-server-pam=y
           EOF
           #
           # ===============================================================

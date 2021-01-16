@@ -91,25 +91,16 @@ jobs:
           CONFIG_DEFAULT_wget=y
           CONFIG_KERNEL_IP_MROUTE=y
           CONFIG_KERNEL_IPV6=y
-          CONFIG_KERNEL_IPV6_MULTIPLE_TABLES=y
-          CONFIG_KERNEL_IPV6_SUBTREES=y
-          CONFIG_KERNEL_IPV6_MROUTE=y
           CONFIG_IPV6=y
           CONFIG_LUCI_LANG_zh-cn=y
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
-          CONFIG_PACKAGE_luci-app-autoreboot=y
-          CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_luci-app-jd-dailybonus=y
           CONFIG_PACKAGE_luci-app-aliddns=y
           CONFIG_PACKAGE_luci-app-qos=y
           CONFIG_PACKAGE_luci-app-unblockmusic=y
-          CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wifischedule=y
           CONFIG_PACKAGE_luci-proto-ipv6=y
-          CONFIG_PACKAGE_luci-proto-ppp=y
           CONFIG_PACKAGE_default-settings=y
-          CONFIG_PACKAGE_autossh=y
-          CONFIG_PACKAGE_openssh-server=y
           EOF
           #
           # ===============================================================
